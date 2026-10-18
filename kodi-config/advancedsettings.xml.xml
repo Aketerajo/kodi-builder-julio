@@ -1,0 +1,40 @@
+<advancedsettings version="1">
+
+  <!-- Rendimiento gráfico -->
+  <gui>
+    <!-- Usa front-to-back rendering para skins pesados -->
+    <fronttobackrendering>true</fronttobackrendering>
+
+    <!-- Reduce la cantidad de texturas en memoria RAM -->
+    <memorylimit>150</memorylimit> <!-- en MB; sube a 300 si tienes >4GB RAM. Déjalo en 150 para 2GB de RAM-->
+    
+    <!-- Desactiva precarga de fanarts grandes -->
+    <nofanart>false</nofanart>
+    <fanartres>1080</fanartres> <!-- limita resolución de fanarts -->
+  </gui>
+
+  <!-- Optimización del texture cache para aliviar la RAM -->
+  <images>
+    <!-- Controla el tamaño máximo de imágenes en RAM -->
+    <imageres>1080</imageres> <!-- fanarts y posters a 1080p -->
+    <fanartheight>1080</fanartheight>
+    <thumbsize>512</thumbsize> <!-- reduce thumbs para listas largas -->
+  </images>
+
+  <!-- Base de datos -->
+  <videolibrary>
+    <!-- Evita rescaneos innecesarios en librerías grandes. Acelera actualizaciones en bases de datos grandes. -->
+    <usefasthash>true</usefasthash>
+  </videolibrary>
+
+  <!-- Logging -->
+  <loglevel>1</loglevel> <!-- 0=none, 1=normal, 2=debug -->
+
+  <!-- Red -->
+  <network>
+        <disablehttp2>true</disablehttp2> <!-- Deshabilita HTTP2 en servidores/curl rotos -->
+        <curlclienttimeout>15</curlclienttimeout> <!-- Da algo mas de margen antes de dar la conexión por muerta -->
+        <curllowspeedtime>10</curllowspeedtime> <!-- Cuánto tiempo tolera una conexión "lenta" antes de considerarla fallida -->
+        <curlretries>3</curlretries> <!-- Por defecto es 2; subirlo a 3 da un intento extra antes de escalar a fallo real -->
+    </network>
+</advancedsettings>
