@@ -1,0 +1,117 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <music>
+        <default pathversion="1"></default>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+        <source>
+            <name>Download</name>
+            <path pathversion="1">/storage/emulated/0/Download/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>home</name>
+            <path pathversion="1">special://home/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>home/addons</name>
+            <path pathversion="1">special://home/addons/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>home/media</name>
+            <path pathversion="1">special://home/media/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>home/userdata</name>
+            <path pathversion="1">special://userdata/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente Balandro</name>
+            <path pathversion="1">https://repobal.github.io/base/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Plex Github</name>
+            <path pathversion="1">https://pannal.github.io/dontpanickodi/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Repo Auto Widget</name>
+            <path pathversion="1">https://drinfernoo.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>HParlon6</name>
+            <path pathversion="1">https://hparlon6.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente Palantir</name>
+            <path pathversion="1">https://palantir.5g.in/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente GTKing</name>
+            <path pathversion="1">https://gtkingbuild.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Repo jacktook</name>
+            <path pathversion="1">https://sam-max.github.io/repository.jacktook/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente Alfa</name>
+            <path pathversion="1">https://alfa-addon.com/alfa/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Magneto Repo</name>
+            <path pathversion="1">https://kodifitzwell.github.io/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente Oldmanjax</name>
+            <path pathversion="1">https://oldmanjax.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente Nimbus</name>
+            <path pathversion="1">https://ivarbrandt.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente Chains</name>
+            <path pathversion="1">https://unhingedthemes.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente RedWizard</name>
+            <path pathversion="1">https://repo.redwizard.xyz/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente Umbrella</name>
+            <path pathversion="1">https://umbrellaplug.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Fuente Clasicofilm</name>
+            <path pathversion="1">https://oscar3553.github.io/clasicofilm/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </files>
+    <games>
+        <default pathversion="1"></default>
+    </games>
+</sources>
